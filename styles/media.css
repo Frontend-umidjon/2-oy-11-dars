@@ -167,3 +167,15 @@
         font-size: 24px;
     }
 }
+@media (max-width: 440px) {
+    .circle2{
+        right: 5%;
+    }
+    .circle5{
+        left: 15%;
+    }
+    .circle6{
+        right: 5%;
+    }
+    
+}
