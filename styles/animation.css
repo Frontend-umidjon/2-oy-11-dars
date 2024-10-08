@@ -1,0 +1,44 @@
+.navbar__logo{
+    transform: translateY(-40px);
+    opacity: 0;
+    animation: logo .5s ease-out forwards;
+}
+@keyframes logo {
+    to{
+        transform: translateY(0);
+        opacity: 1; 
+    }
+    
+}
+.navbar__item{
+    transform: translateY(-40px);
+    opacity: 0;
+    animation: nav .5s ease-out forwards; 
+}
+@keyframes nav {
+    to{
+        transform: translateY(0);
+        opacity: 1; 
+    }
+    
+}
+.navbar__actions{
+    transform: translateX(50px);
+    opacity: 0;
+    animation: cart 1s ease-in 0.9s  forwards;
+}
+@keyframes cart {
+    to{
+        transform: translateX(0);
+        opacity: 85%;
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

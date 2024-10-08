@@ -1,0 +1,32 @@
+.container_large{
+    max-width: 1225px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container_larger{
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.container__medium{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.container__small{
+    max-width: 743px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: DM Sans;
+    background-color: #f6f7fb  ;
+}
