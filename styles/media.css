@@ -130,4 +130,16 @@
     .service__item:last-child{
         grid-column: 1/1;
     }
+    .team__list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+    }
+    .circle2{
+        right: 15%;
+    }
+    .projects__heading{
+        font-size: 28px;
+        text-align: center;
+    }
 }
